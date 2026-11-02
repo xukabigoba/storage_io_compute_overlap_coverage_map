@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "xukabigoba-nlp_jd159"
+name = "xukabigoba-storage_io_compute_overlap_coverage_map"
 version = "0.1.0"
 description = "把候选项映射到类别上，算出NLP 算法工程师·存储 IO 与计算的重叠的覆盖率并列出未覆盖的类别"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://xukabigoba.github.io"
-Repository = "https://github.com/xukabigoba/nlp_jd159"
-Issues = "https://github.com/xukabigoba/nlp_jd159/issues"
+Repository = "https://github.com/xukabigoba/storage_io_compute_overlap_coverage_map"
+Issues = "https://github.com/xukabigoba/storage_io_compute_overlap_coverage_map/issues"
 
 [project.scripts]
-nlp_jd159 = "nlp_jd159:main"
+storage_io_compute_overlap_coverage_map = "storage_io_compute_overlap_coverage_map:main"
 
 [tool.setuptools]
-py-modules = ["nlp_jd159"]
+py-modules = ["storage_io_compute_overlap_coverage_map"]
